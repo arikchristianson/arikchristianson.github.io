@@ -36,7 +36,7 @@ count++
 
 painter1.fillStyle = "#000000";
 var count;
-for (var j=0; j<40; ++j){
+for (var j=0; j<40 - 1; ++j){
 for (var i= 0; i<40;++i){
     if ((((count)*-1)**2) >= 0) {
         break;
@@ -50,7 +50,7 @@ count++
 }
 painter1.fillStyle = "#000000";
 var count;
-for (var j=0; j<40; ++j){
+for (var j=0; j<40 - 1; ++j){
 for (var i= 0; i<40;++i){
     if ((((count)*-1)**2) >= 0) {
         break;
